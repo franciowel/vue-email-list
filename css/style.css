@@ -4,3 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* COMMONS */
+li{
+    margin: 1rem 0;
+    padding-left: 1rem;
+}

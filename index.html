@@ -12,6 +12,17 @@
 
 <body>
     
+    <div id="root">
+
+        <ul>
+            <div v-if="done">
+                <li v-for="mails, index in randomMail">
+                    {{ randomMail[index] }}
+                </li>
+            </div>
+        </ul>
+    </div>
+
 </body>
 
 <script type="text/javascript" src="js/script.js"></script>
